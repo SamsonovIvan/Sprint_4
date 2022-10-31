@@ -6,8 +6,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver;
 import pom.mainPage;
 
 import java.time.Duration;
@@ -36,8 +36,8 @@ import java.time.Duration;
     }
    @Before
     public void setUp(){
-        driver = new FirefoxDriver();
-       //driver = new ChromeDriver();
+        //driver = new FirefoxDriver();
+       driver = new ChromeDriver();
        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
    }
    @Test

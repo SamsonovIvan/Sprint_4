@@ -1,7 +1,7 @@
 package testYandexSamokat;
 import org.junit.runners.Parameterized;
-import org.openqa.selenium.firefox.FirefoxDriver;
-//import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import pom.orderForm;
 import pom.mainPage;
 import org.junit.runner.RunWith;
@@ -56,8 +56,8 @@ public class testYandexSamokatOrder {
 
     @Before
     public void setup() {
-        //driver = new ChromeDriver();
-        driver = new FirefoxDriver();
+        driver = new ChromeDriver();
+        //driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
     @Test
