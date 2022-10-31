@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad20a167-3f41-4519-905b-4f9c87fa4bf6" name="Changes" comment="Подключил Chrome">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testYandexSamokat/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testYandexSamokat/TestMainPage.java" afterDir="false" />
-    </list>
+    <list default="true" id="ad20a167-3f41-4519-905b-4f9c87fa4bf6" name="Changes" comment="Добавлены явные ожидания появления элементов для Chrome." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -224,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667213346623</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавлены явные ожидания появления элементов для Chrome.">
+      <created>1667223818628</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667223818628</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,7 +258,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Тест создания заказа и блока с вопросами" />
     <MESSAGE value="Подключил Chrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="Подключил Chrome" />
+    <MESSAGE value="Добавлены явные ожидания появления элементов для Chrome." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены явные ожидания появления элементов для Chrome." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/project4sprint$testMainPage_testMainPageAccordeon__1_.ic" NAME="testMainPage.testMainPageAccordeon (1) Coverage Results" MODIFIED="1667210059945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
