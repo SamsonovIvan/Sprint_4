@@ -4,14 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad20a167-3f41-4519-905b-4f9c87fa4bf6" name="Changes" comment="" />
+    <list default="true" id="ad20a167-3f41-4519-905b-4f9c87fa4bf6" name="Changes" comment="Тест создания заказа и блока с вопросами">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pom/mainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pom/mainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pom/orderForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pom/orderForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testYandexSamokat/testMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testYandexSamokat/testMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testYandexSamokat/testYandexSamokatOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testYandexSamokat/testYandexSamokatOrder.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Gf97peTlWv9QRAfmisSO8kUeRr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -22,9 +42,159 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "C:/Users/Иван/Desktop/Иван/project4sprint/src/test/java/TestOrder",
+    "last_opened_file_path": "C:/selenium-java-4.5.3",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="TestOrder" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.testYandexSamokatOrder.testOrderScenario">
+    <configuration name="TestMainPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testYandexSamokat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testYandexSamokat" />
+      <option name="MAIN_CLASS_NAME" value="testYandexSamokat.TestMainPage" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage.testMainPageAccordeon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testYandexSamokat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testYandexSamokat" />
+      <option name="MAIN_CLASS_NAME" value="testYandexSamokat.TestMainPage" />
+      <option name="METHOD_NAME" value="testMainPageAccordeon" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage.testMainPageAccordeon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testYandexSamokat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testYandexSamokat" />
+      <option name="MAIN_CLASS_NAME" value="testYandexSamokat.TestMainPage" />
+      <option name="METHOD_NAME" value="testMainPageAccordeon" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="[0]" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testMainPage.testMainPageAccordeon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testYandexSamokat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testYandexSamokat" />
+      <option name="MAIN_CLASS_NAME" value="testYandexSamokat.testMainPage" />
+      <option name="METHOD_NAME" value="testMainPageAccordeon" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testYandexSamokatOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testYandexSamokat.testYandexSamokatOrder" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testYandexSamokat" />
+      <option name="MAIN_CLASS_NAME" value="testYandexSamokat.testYandexSamokatOrder" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testYandexSamokatOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project4sprint" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testYandexSamokat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testYandexSamokat" />
+      <option name="MAIN_CLASS_NAME" value="testYandexSamokat.testYandexSamokatOrder" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testYandexSamokatOrder.testOrderScenario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testYandexSamokat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testYandexSamokat" />
+      <option name="MAIN_CLASS_NAME" value="testYandexSamokat.testYandexSamokatOrder" />
+      <option name="METHOD_NAME" value="testOrderScenario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Sprint_4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Sprint_4" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.testYandexSamokatOrder.testOrderScenario" />
+        <item itemvalue="JUnit.TestMainPage.testMainPageAccordeon" />
+        <item itemvalue="JUnit.TestMainPage.testMainPageAccordeon" />
+        <item itemvalue="JUnit.TestMainPage" />
+        <item itemvalue="JUnit.testYandexSamokatOrder" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,5 +205,38 @@
       <updated>1666768608459</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="date">
+                    <value>
+                      <list>
+                        <option value="1666944838286" />
+                        <option value="" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Тест создания заказа и блока с вопросами" />
+    <option name="LAST_COMMIT_MESSAGE" value="Тест создания заказа и блока с вопросами" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/project4sprint$testMainPage_testMainPageAccordeon__1_.ic" NAME="testMainPage.testMainPageAccordeon (1) Coverage Results" MODIFIED="1667210059945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>testYandexSamokat.*</FILTER>
+    </SUITE>
   </component>
 </project>
