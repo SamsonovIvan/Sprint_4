@@ -13,7 +13,7 @@ import pom.mainPage;
 import java.time.Duration;
 
 @RunWith(Parameterized.class)
- class TestMainPage {
+ public class TestMainPage {
     private final int question;
     private final String givenAnswer;
     private WebDriver driver;
