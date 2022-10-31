@@ -59,34 +59,50 @@ public class mainPage {
                 .until(ExpectedConditions.visibilityOfElementLocated(faq));
         if (question == 1) {
             driver.findElement(question1).click();
+            new WebDriverWait(driver, Duration.ofSeconds(10))
+                    .until(ExpectedConditions.visibilityOfElementLocated(answer1));
             String takenAnswer = driver.findElement(answer1).getText();
             Assert.assertEquals(givenAnswer, takenAnswer);
         } else if (question == 2) {
             driver.findElement(question2).click();
+            new WebDriverWait(driver, Duration.ofSeconds(10))
+                    .until(ExpectedConditions.visibilityOfElementLocated(answer2));
             String takenAnswer = driver.findElement(answer2).getText();
             Assert.assertEquals(givenAnswer, takenAnswer);
         } else if (question == 3) {
             driver.findElement(question3).click();
+            new WebDriverWait(driver, Duration.ofSeconds(10))
+                    .until(ExpectedConditions.visibilityOfElementLocated(answer3));
             String takenAnswer = driver.findElement(answer3).getText();
             Assert.assertEquals(givenAnswer, takenAnswer);
         } else if (question == 4) {
             driver.findElement(question4).click();
+            new WebDriverWait(driver, Duration.ofSeconds(10))
+                    .until(ExpectedConditions.visibilityOfElementLocated(answer4));
             String takenAnswer = driver.findElement(answer4).getText();
             Assert.assertEquals(givenAnswer, takenAnswer);
         } else if (question == 5) {
             driver.findElement(question5).click();
+            new WebDriverWait(driver, Duration.ofSeconds(10))
+                    .until(ExpectedConditions.visibilityOfElementLocated(answer5));
             String takenAnswer = driver.findElement(answer5).getText();
             Assert.assertEquals(givenAnswer, takenAnswer);
         } else if (question == 6) {
             driver.findElement(question6).click();
+            new WebDriverWait(driver, Duration.ofSeconds(10))
+                    .until(ExpectedConditions.visibilityOfElementLocated(answer6));
             String takenAnswer = driver.findElement(answer6).getText();
             Assert.assertEquals(givenAnswer, takenAnswer);
         } else if (question == 7) {
             driver.findElement(question7).click();
+            new WebDriverWait(driver, Duration.ofSeconds(10))
+                    .until(ExpectedConditions.visibilityOfElementLocated(answer7));
             String takenAnswer = driver.findElement(answer7).getText();
             Assert.assertEquals(givenAnswer, takenAnswer);
         } else if (question == 8) {
             driver.findElement(question8).click();
+            new WebDriverWait(driver, Duration.ofSeconds(10))
+                    .until(ExpectedConditions.visibilityOfElementLocated(answer8));
             String takenAnswer = driver.findElement(answer8).getText();
             Assert.assertEquals(givenAnswer, takenAnswer);
         } else {
