@@ -1,9 +1,9 @@
-package testYandexSamokat;
+package testyandexsamokat;
 import org.junit.runners.Parameterized;
 //import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import pom.orderForm;
-import pom.mainPage;
+import pom.MainPage;
+import pom.OrderForm;
 import org.junit.runner.RunWith;
 import org.junit.After;
 import org.junit.Before;
@@ -13,9 +13,9 @@ import org.openqa.selenium.WebDriver;
 import java.time.Duration;
 
 
-
 @RunWith(Parameterized.class)
-public class testYandexSamokatOrder {
+
+public class TestYandexSamokatOrder {
 
 
 
@@ -32,7 +32,7 @@ public class testYandexSamokatOrder {
     private final String comment;
     private WebDriver driver;
 
-    public testYandexSamokatOrder(int enterPoint, String name, String surname, String adress, String metroStation, String phoneNumber, String date, By period, By colour, String comment) {
+    public TestYandexSamokatOrder(int enterPoint, String name, String surname, String adress, String metroStation, String phoneNumber, String date, By period, By colour, String comment) {
 
         this.enterPoint = enterPoint;
         this.name = name;
@@ -62,10 +62,10 @@ public class testYandexSamokatOrder {
     }
     @Test
     public void testOrderScenario() {
-        mainPage MainPage = new mainPage(driver);
-        MainPage.open()
+        MainPage mainPage = new MainPage(driver);
+        mainPage.open()
                 .clickMakeOrderButton(enterPoint);
-        orderForm form = new orderForm(driver);
+        OrderForm form = new OrderForm(driver);
         form.enterName(name)
             .enterSurName(surname)
             .enterAdress(adress)

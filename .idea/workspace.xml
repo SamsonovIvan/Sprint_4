@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad20a167-3f41-4519-905b-4f9c87fa4bf6" name="Changes" comment="Добавлены явные ожидания появления элементов для Chrome." />
+    <list default="true" id="ad20a167-3f41-4519-905b-4f9c87fa4bf6" name="Changes" comment="Добавлены явные ожидания появления элементов для Chrome.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pom/mainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pom/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pom/orderForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pom/OrderForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testYandexSamokat/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testyandexsamokat/TestMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testYandexSamokat/testYandexSamokatOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testyandexsamokat/TestYandexSamokatOrder.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,18 +61,34 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestMainPage.testMainPageAccordeon">
-    <configuration name="TestMainPage (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestMainPage.checkQuestionsAndAnswers">
+    <configuration name="TestMainPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testYandexSamokat.*" />
+          <option name="PATTERN" value="testyandexsamokat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testYandexSamokat" />
-      <option name="MAIN_CLASS_NAME" value="testYandexSamokat.TestMainPage" />
+      <option name="MAIN_CLASS_NAME" value="testyandexsamokat.TestMainPage" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage.checkQuestionsAndAnswers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testyandexsamokat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testYandexSamokat" />
+      <option name="MAIN_CLASS_NAME" value="testyandexsamokat.TestMainPage" />
+      <option name="METHOD_NAME" value="checkQuestionsAndAnswers" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,12 +113,28 @@
       <module name="Sprint_4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testYandexSamokat.*" />
+          <option name="PATTERN" value="testyandexsamokat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testYandexSamokat" />
-      <option name="MAIN_CLASS_NAME" value="testYandexSamokat.TestMainPage" />
+      <option name="MAIN_CLASS_NAME" value="testyandexsamokat.TestMainPage" />
+      <option name="METHOD_NAME" value="testMainPageAccordeon" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage.testMainPageAccordeon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testyandexsamokat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testYandexSamokat" />
+      <option name="MAIN_CLASS_NAME" value="testyandexsamokat.TestMainPage" />
       <option name="METHOD_NAME" value="testMainPageAccordeon" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -119,62 +158,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testMainPage.testMainPageAccordeon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestYandexSamokatOrder.testOrderScenario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testYandexSamokat.*" />
+          <option name="PATTERN" value="testyandexsamokat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testYandexSamokat" />
-      <option name="MAIN_CLASS_NAME" value="testYandexSamokat.testMainPage" />
-      <option name="METHOD_NAME" value="testMainPageAccordeon" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testYandexSamokatOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sprint_4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testYandexSamokat.testYandexSamokatOrder" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testYandexSamokat" />
-      <option name="MAIN_CLASS_NAME" value="testYandexSamokat.testYandexSamokatOrder" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testYandexSamokatOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project4sprint" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testYandexSamokat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testYandexSamokat" />
-      <option name="MAIN_CLASS_NAME" value="testYandexSamokat.testYandexSamokatOrder" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testYandexSamokatOrder.testOrderScenario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sprint_4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testYandexSamokat.TestMainPage" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testYandexSamokat" />
-      <option name="MAIN_CLASS_NAME" value="testYandexSamokat.testYandexSamokatOrder" />
+      <option name="MAIN_CLASS_NAME" value="testyandexsamokat.TestYandexSamokatOrder" />
       <option name="METHOD_NAME" value="testOrderScenario" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -183,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestMainPage.checkQuestionsAndAnswers" />
         <item itemvalue="JUnit.TestMainPage.testMainPageAccordeon" />
+        <item itemvalue="JUnit.TestYandexSamokatOrder.testOrderScenario" />
         <item itemvalue="JUnit.TestMainPage.testMainPageAccordeon (1)" />
         <item itemvalue="JUnit.TestMainPage (1)" />
-        <item itemvalue="JUnit.testYandexSamokatOrder.testOrderScenario" />
-        <item itemvalue="JUnit.TestMainPage.testMainPageAccordeon" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667223818628</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Добавлены явные ожидания появления элементов для Chrome.">
+      <created>1667224545310</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667224545310</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
