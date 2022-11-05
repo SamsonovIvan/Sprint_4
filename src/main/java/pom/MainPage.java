@@ -33,7 +33,7 @@ public class MainPage {
             "//div[@id='accordion__heading-6']",
             "//div[@id='accordion__heading-7']"};
 
-    private static final By COOKIE_BUTTON = By.xpath("//button[@class='App_CookieButton__3cvqF']"); //Куки кнопка тоже константа
+    private final By COOKIE_BUTTON = By.xpath("//button[@class='App_CookieButton__3cvqF']"); //Куки кнопка тоже константа
     private static final String URL = "https://qa-scooter.praktikum-services.ru/"; //константа УРЛ
 
     public MainPage(WebDriver driver) {
